@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  background: url("./bbg.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-blend-mode: multiply;
+  background-color: white;
+  position: relative;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+.header {
+  margin: 50px 0 0 100px;
+  height: 500px;
+}
+.header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+.header ul.menu {
+  position: absolute;
+  left: 50px;
+  list-style: none;
+  width: 1543px;
+}
+.header ul.menu li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms;
+  margin: 0 10px;
+  text-shadow: 0 1px 1px #c5e5e5, -1px 0 1px #000, 0 -1px 1px #000;
+  letter-spacing: 3px;
+  margin-left: 2em;
+}
+
+.header ul.menu li:hover {
+  opacity: 0.5;
+}
+.head {
+  /* display: inline-block; */
+
+  align-items: center;
+  justify-content: center;
+}
+.head .info {
+  width: 300px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head .download {
+  width: 300px;
+  position: absolute;
+  top: 60px;
+  left: 450px;
+}
+.head .logo {
+  position: absolute;
+  top: 40px;
+  left: 660px;
+  width: 160px;
+}
+
+.presentation::after {
+  content: "The best stuff for Dibunovskaya 50";
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: antiquewhite;
+  text-shadow: 1px 0 1px #000, 0 1px 2px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.presentation::before {
+  content: "The lowest cost in SPB";
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 600;
+  color: antiquewhite;
+  text-shadow: 1px 0 1px #000, 0 1px 2px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 44px;
+  left: 370px;
+}
+.txt-circle {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+.circle-1 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 60px;
+  left: 900px;
+}
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 60px;
+  left: 975px;
+}
+.circle-3 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 60px;
+  left: 1050px;
+}
+.response {
+  width: 200px;
+  position: absolute;
+  top: 35px;
+  left: 925px;
+}
+.time {
+  position: absolute;
+  top: 40px;
+  left: 1140px;
+  font-size: 14px;
+}
+.telNumber {
+  width: 200px;
+  position: absolute;
+  top: 65px;
+  left: 1185px;
+}
+.recall {
+  width: 200px;
+  position: absolute;
+  top: 90px;
+  left: 1193px;
+}
+.fform {
+  position: absolute;
+  width: 225px;
+  height: 600px;
+  left: 75px;
+  top: 140px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.ffform-1 {
+  position: absolute;
+  width: 225px;
+  height: 120px;
+  left: 75px;
+  top: 140px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+  text-align: center;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+.txt {
+  margin: 20px 3px 1px 3px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.ffform-2 {
+  position: absolute;
+  width: 225px;
+  height: 120px;
+  left: 75px;
+  top: 260px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.ffform-3 {
+  position: absolute;
+  width: 225px;
+  height: 120px;
+  left: 75px;
+  top: 380px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.ffform-4 {
+  position: absolute;
+  width: 225px;
+  height: 120px;
+  left: 75px;
+  top: 500px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.ffform-5 {
+  position: absolute;
+  width: 225px;
+  height: 120px;
+  left: 75px;
+  top: 620px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.form-1 {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  width: 375px;
+  height: 100px;
+  background: #12c868;
+  box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-2 {
+  position: absolute;
+  left: 800px;
+  top: 450px;
+  width: 375px;
+  height: 100px;
+  background: #f38120;
+  box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.space {
+  padding: 5px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  opacity: 0.5;
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  left: 500px;
+  top: 220px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 7000;
+  font-size: 25px;
+  line-height: 45px;
+  /* or 155% */
+  text-align: center;
+}
+.question {
+  color: #000;
+  position: absolute;
+  height: 88px;
+  width: 234px;
+  left: 450px;
+  top: 600px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 7000;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 155% */
+  text-align: center;
+}
+.line {
+  width: 225px;
+  height: 10px;
+  position: relative;
+  top: -110px;
+  opacity: 1;
+}
+.texxt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+b {
+  font-weight: 900;
+}
